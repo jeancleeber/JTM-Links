@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
+    background-color: #0a0a0a;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo{
+    height: 180px;
+    margin-bottom: 25px;
+}
+
+.whatsapp, .locali {
+    height: 180px;
+    transition: 0.3s;
+}
+
+.whatsapp:hover, .locali:hover{
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+.whatsapp{
+    margin-bottom: 20px;
+}
